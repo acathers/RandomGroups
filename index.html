@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-    <p>Select local CSV File:</p>
-    <input id="csv" type="file">
-    <output id="out">file contents will appear here</output>
-    <script src="js/script.js"></script>
+<div class="split left">
+    <button class="button">Generate Groups</button>
+    <b>Group Size: </b>
+    <label>
+        <input type="text" value="3">
+    </label>
+</div>
+<div class="split right"></div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
